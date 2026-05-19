@@ -1,0 +1,29 @@
+/home/claude/neuro-wiki/
+│
+├── INDEX.md                              [Main project entry point]
+├── QUICKSTART.sh                         [Automated setup script]
+│
+├── schemas/
+│   └── knowledge-schema.json             [Master data schema with 5 entity types]
+│
+├── data/
+│   ├── conditions.json                   [3 condition entries + structure]
+│   ├── interventions.json                [8 intervention entries]
+│   ├── assessments.json                  [4 clinical assessment tools]
+│   ├── resources.json                    [15 research & guideline resources]
+│   ├── care_plan_templates.json          [3 recovery plan templates]
+│   └── audit.log                         [Activity log (auto-generated)]
+│
+├── api/
+│   ├── server.js                         [Express REST API (379 lines)]
+│   ├── package.json                      [Node dependencies]
+│   └── [data/ and schemas/ referenced]
+│
+├── ui/
+│   ├── NeuroWiki.jsx                     [React web interface (650+ lines)]
+│   ├── package.json                      [React dependencies]
+│   └── [connects to API on port 3000]
+│
+└── docs/
+    ├── README.md                         [Comprehensive documentation]
+    └── API_TESTING_GUIDE.md              [API examples and integration]
