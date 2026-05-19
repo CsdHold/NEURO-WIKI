@@ -1,0 +1,4 @@
+Local: bash QUICKSTART.sh && npm start
+Docker: docker build -t neuro-wiki-api . && docker run...
+Azure: az webapp up --name neuro-wiki-api
+AWS: Lambda + S3 + CloudFront (documented in README)
