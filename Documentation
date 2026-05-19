@@ -1,0 +1,5 @@
+NEURO-WIKI-MANIFEST.txt — Complete build summary (this page)
+INDEX.md — Project overview & quick navigation
+BUILD_SUMMARY.md — Detailed architecture & content
+docs/README.md — Full technical reference (3000+ words)
+docs/API_TESTING_GUIDE.md — API examples, Python/JS integration, cURL commands
