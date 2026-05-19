@@ -1,0 +1,12 @@
+API Endpoints
+Method  Endpoint          Purpose
+GET/    api/health        Health check
+GET/    api/schema        Retrieve full schema
+GET/    api/{type}        List all entities of type
+GET/    api/{type}/{id}   Get specific entity
+POST/   api/{type}        Create new entity
+DELETE/ api/{type}/{id}   Delete entity
+GET/    api/search?q=     Full-text search
+GET/    api/audit         Retrieve audit log
+
+Entity Types: condition, intervention, assessment, resource, care_plan_template
