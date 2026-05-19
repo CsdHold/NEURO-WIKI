@@ -1,0 +1,14 @@
+# 1. Automatic setup
+bash QUICKSTART.sh
+
+# 2. Start API (Terminal 1)
+cd api && npm start
+
+# 3. Start UI (Terminal 2)
+cd ui && npm start
+
+Result:
+
+API running on http://localhost:3000/api
+Web UI running on http://localhost:3000
+Full knowledge base accessible and editable
